@@ -1,11 +1,13 @@
 import './header.scss';
 import { memo } from 'react';
 import { ReactElement } from 'react';
+import logo from '../../assets/images/svg/logo.svg'
 
 export function HeaderComponent(): ReactElement {
     return (
         <header>
             <div className="logo-container">
+                <img src={logo} alt="Logo" />
             </div>
             <div className="text-container">
                 <div className="heading">
