@@ -3,18 +3,13 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     box-sizing: border-box;
-
-    padding: 24px;
-
-    gap: 32px;
-
-    background-color: var(--dark-grey);
-    margin-top: 50px;
+    background-color: black;
+    padding: 40px;
+    margin-top: 200px;
 }
 
 footer p {
-    color: var(--light-text);
+    color: var(--dark-grey);
     font-size: 12px;
 }

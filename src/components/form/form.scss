@@ -24,11 +24,6 @@
     justify-content: center;
 }
 
-.form-group .form-icon img {
-    height: 30px;
-}
-
-
 .form-group h3 {
     font-size: 24px;
     color: var(--medium-text);
@@ -89,9 +84,15 @@
 }
 
 
+.form-group .btn-wrapper .btn-primary {
+    background-color: var(--yellow);
+}
+
+
 .form-group .btn-wrapper .btn-secondary {
     background-color: transparent;
     border: 2px solid var(--light-text);
+    padding: 50px;
 }
 
 .form-group .checkbox-wrapper {
